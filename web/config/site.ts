@@ -5,8 +5,8 @@ export const siteConfig = {
   description: "Make websites to guitar labs.",
   navItems: [
     {
-      label: "Создать",
-      href: "/create",
+      label: "Кастомизировать",
+      href: "/custom",
     },
     {
       label: "Блог",
@@ -19,8 +19,8 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Создать",
-      href: "/create",
+      label: "Кастомизировать",
+      href: "/custom",
     },
     {
       label: "Блог",

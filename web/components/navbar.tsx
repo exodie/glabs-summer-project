@@ -70,12 +70,12 @@ export const Navbar = () => {
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
         <NavbarItem className="hidden lg:flex">
-          <Link href="/auth" color="foreground">
+          <Link href="/auth/signin" color="foreground">
             Войти
           </Link>
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">
-          <Link href="/auth" color="foreground">
+          <Link href="/cart" color="foreground">
             Корзина
             <Badge color="default" content={0} shape="rectangle">
               &nbsp;
@@ -94,7 +94,7 @@ export const Navbar = () => {
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link href="#" size="lg">
+              <Link href={item.href} size="lg">
                 {item.label}
               </Link>
             </NavbarMenuItem>

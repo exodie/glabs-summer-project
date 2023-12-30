@@ -1,27 +1,22 @@
-import { Card, CardFooter, Image, Button } from "@nextui-org/react";
+import {
+  Card,
+  CardHeader,
+  Image,
+} from "@nextui-org/react";
 
 export const Catalog = () => {
   return (
-    <Card isFooterBlurred radius="lg" className="border-none">
+    <Card className="p-6">
+      <CardHeader className="absolute z-10 top-1 flex-col items-start">
+        <h1 className="font-medium text-xl">Гитары</h1>
+      </CardHeader>
       <Image
-        alt="Woman listing to music"
-        className="object-cover"
-        height={200}
-        src="https://muzmarket.ru/wa-data/public/shop/products/44/66/46644/images/221299/221299.970.jpg"
-        width={200}
+        removeWrapper
+        alt="Card background"
+        className="p-2 z-0 w-full h-full object-cover"
+        loading="lazy"
+        src="https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
       />
-      <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-        <p className="text-tiny text-white/80">Available soon.</p>
-        <Button
-          className="text-tiny text-white bg-black/20"
-          variant="flat"
-          color="default"
-          radius="lg"
-          size="sm"
-        >
-          Notify me
-        </Button>
-      </CardFooter>
     </Card>
   );
 };
