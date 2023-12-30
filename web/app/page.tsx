@@ -7,18 +7,84 @@ export default function Home() {
       <h3 className={title({ size: "sm" })}>Каталог</h3>
 
       <div className="grid grid-cols-3 gap-10">
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
-        <Catalog />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
+        <Catalog
+          name={"Guitar"}
+          href={"/catalog/guitars"}
+          imgSrc={
+            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
+          }
+        />
       </div>
     </section>
   );
