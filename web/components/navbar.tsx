@@ -10,6 +10,7 @@ import {
   Link,
   Input,
   link as linkStyles,
+  Button,
 } from "@nextui-org/react";
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
@@ -99,6 +100,16 @@ export const Navbar = () => {
               </Link>
             </NavbarMenuItem>
           ))}
+
+          <Link href="/auth/signin" color="foreground" size="lg">
+            Войти
+          </Link>
+          <Link href="/cart" color="foreground" size="lg">
+            Корзина
+            <Badge color="default" content={0} shape="rectangle">
+              &nbsp;
+            </Badge>
+          </Link>
         </div>
       </NavbarMenu>
     </NextUINavbar>
