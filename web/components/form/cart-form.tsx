@@ -1,6 +1,6 @@
 import { Input, Button } from "@nextui-org/react"
 
-export default function UserCartForm() {
+export const UserCartForm = () => {
   return (
     <form action="" className="flex flex-col">
       <h2 className="font-medium text-1xl mb-4">Данные получателя</h2>
@@ -17,7 +17,7 @@ export default function UserCartForm() {
         стоимость доставки заказа и сроки получения.
       </p>
 
-      <Button className="w-8/12 m-auto">Продолжить оформление</Button>
+      <Button className="w-8/12 m-auto mb-16">Продолжить оформление</Button>
     </form>
   );
 }
