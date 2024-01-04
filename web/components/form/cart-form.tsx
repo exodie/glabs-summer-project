@@ -5,9 +5,9 @@ export const UserCartForm = () => {
     <form action="" className="flex flex-col">
       <h2 className="font-medium text-1xl mb-4">Данные получателя</h2>
 
-      <div className="flex flex-row w-full mb-4">
-        <Input isRequired className="w-4/12 mr-6" label="Фамилия и Имя" />
-        <Input isRequired className="w-4/12" label="Телефон" type="tel" />
+      <div className="flex flex-col sm:flex-row md:flex-row w-full mb-4">
+        <Input isRequired className="w-full sm:w-4/12 md:w-4/12 mr-6" label="Фамилия и Имя" />
+        <Input isRequired className="w-full sm:w-4/12 md:w-4/12 sm:mt-0 md:mt-0 mt-4" label="Телефон" type="tel" />
       </div>
 
       <p className="font-light leading-8 mb-4">
