@@ -1,3 +1,4 @@
+import { __Catalog__, __catalog__ } from "@/__mocks__/catalog.mocks";
 import { Catalog } from "@/components/catalog/catalog";
 import { title } from "@/components/primitives";
 
@@ -7,84 +8,14 @@ export default function Home() {
       <h3 className={title({ size: "sm" })}>Каталог</h3>
 
       <div className="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3">
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
-        <Catalog
-          name={"Гитары"}
-          href={"/catalog/guitars"}
-          imgSrc={
-            "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1"
-          }
-        />
+        {__catalog__.map((item: __Catalog__, index) => (
+          <Catalog
+            key={index}
+            name={item.title}
+            href={`/catalog/${item.id}`}
+            imgSrc={item.image}
+          />
+        ))}
       </div>
     </section>
   );
