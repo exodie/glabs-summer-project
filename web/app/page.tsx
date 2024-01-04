@@ -1,4 +1,4 @@
-import { __Catalog__, __catalog__ } from "@/__mocks__/catalog.mocks";
+import { type __Catalog__, __catalog__ } from "@/__mocks__/catalog.mocks";
 import { Catalog } from "@/components/catalog/catalog";
 import { title } from "@/components/primitives";
 
