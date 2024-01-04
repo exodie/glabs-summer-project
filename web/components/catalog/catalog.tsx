@@ -9,14 +9,14 @@ type CatalogProps = {
 export const Catalog = (props: CatalogProps) => {
   return (
     <Link href={props.href}>
-      <Card className="p-6">
+      <Card className="p-6 w-full">
         <CardHeader className="absolute z-10 top-1 flex-col items-start">
           <h1 className="font-medium text-xl">{props.name}</h1>
         </CardHeader>
         <Image
           removeWrapper
           alt="Card background"
-          className="p-2 z-0 w-full h-full object-cover"
+          className="w-full py-8 px-4 rounded h-6/12 object-contain"
           loading="lazy"
           src={props.imgSrc}
         />
