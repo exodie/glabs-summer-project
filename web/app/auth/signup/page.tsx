@@ -2,11 +2,11 @@ import { Button, Checkbox, Input } from "@nextui-org/react";
 
 export default function AuthSignUp() {
   return (
-    <form className="mt-16 p-10 flex w-6/12 flex-wrap md:flex-nowrap gap-4 flex-col">
+    <form className="mt-16 p-10 flex lg:w-6/12 w-full flex-wrap md:flex-nowrap gap-4 flex-col">
       <h1 className="font-light text-3xl mb-4 m-auto">Регистрация</h1>
 
-      <div className="w-full grid grid-cols-2 gap-2">
-        <Input isRequired type="text" label="Имя" />
+      <div className="w-full flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-3 gap-4">
+        <Input className="" isRequired type="text" label="Имя" />
         <Input type="text" label="Фамилия" />
         <Input isRequired type="email" label="Электронная почта" />
         <Input isRequired type="phonenumber" label="Номер телефона" />
