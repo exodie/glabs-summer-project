@@ -1,4 +1,9 @@
-import { TypesOfGuitar, ConditionGuitar, ElectronicsGuitar, PickupsElectronicsGuitar } from ".";
+import {
+  TypesOfGuitar,
+  ConditionGuitar,
+  ElectronicsGuitar,
+  PickupsElectronicsGuitar,
+} from ".";
 
 export interface SpecsOfGuitar {
   codeOfItem: number;
@@ -23,3 +28,17 @@ export interface SpecsOfGuitar {
   article: string;
   weight: number;
 }
+
+export type FirstSpecsOfGuitar = Pick<
+  SpecsOfGuitar,
+  | "codeOfItem"
+  | "picture"
+  | "manufacturer"
+  | "type"
+  | "condition"
+  | "bodyShape"
+  | "orientation"
+  | "numberOfStrings"
+  | "numberOfFrets"
+  | "beaker"
+>;
