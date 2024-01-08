@@ -12,7 +12,7 @@ export default function AuthRecovery() {
 
       <Input isRequired type="email" label="Электронная почта" />
       <Button className="m-auto w-8/12 font-light" color="primary" size="lg">
-        Войти
+        Отправить код
       </Button>
     </form>
   );
