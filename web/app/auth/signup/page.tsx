@@ -6,8 +6,8 @@ export default function AuthSignUp() {
       <h1 className="font-light text-3xl mb-4 m-auto">Регистрация</h1>
 
       <div className="w-full flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-3 gap-4">
-        <Input className="" isRequired type="text" label="Имя" />
-        <Input type="text" label="Фамилия" />
+        <Input isRequired type="text" label="Имя" />
+        <Input isRequired type="text" label="Фамилия" />
         <Input isRequired type="email" label="Электронная почта" />
         <Input isRequired type="phonenumber" label="Номер телефона" />
         <Input isRequired type="password" label="Пароль" />
