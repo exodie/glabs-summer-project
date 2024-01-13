@@ -49,3 +49,56 @@ export const __catalog__: __Catalog__[] = [
     image: "https://generated.vusercontent.net/placeholder.svg",
   },
 ];
+
+export const __catalog__guitars__: __Catalog__[] = [
+  {
+    id: 9,
+    title: "Акустические гитары",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 10,
+    title: "Акустические гитары б/у",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 11,
+    title: "Электроакустические гитары",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 12,
+    title: "Классические гитары",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 13,
+    title: "Электрогитары",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 14,
+    title: "Электрогитары б/у",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 15,
+    title: "Полуакустические электрогитары",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 16,
+    title: "Бас-гитары",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 17,
+    title: "Бас-гитары б/у",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+  {
+    id: 18,
+    title: "Акустические бас-гитары",
+    image: "https://generated.vusercontent.net/placeholder.svg",
+  },
+];
