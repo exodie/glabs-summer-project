@@ -1,3 +1,15 @@
+CREATE TABLE guitars (
+                         id SERIAL PRIMARY KEY,
+                         name VARCHAR(255) NOT NULL,
+                         brand VARCHAR(100),
+                         model VARCHAR(100),
+                         description TEXT,
+                         price NUMERIC(10, 2) NOT NULL,
+                         stock_quantity INT NOT NULL,
+                         category VARCHAR(50),
+                         image_url VARCHAR(255)
+);
+
 CREATE TABLE IF NOT EXISTS users (
                                      id BIGSERIAL PRIMARY KEY,
                                      first_name VARCHAR(255) NOT NULL,
