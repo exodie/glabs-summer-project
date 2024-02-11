@@ -41,4 +41,5 @@ export type FirstSpecsOfGuitar = Pick<
   | "numberOfStrings"
   | "numberOfFrets"
   | "beaker"
+  | "article"
 >;
