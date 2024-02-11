@@ -1,6 +1,17 @@
+import { TypesOfGuitar } from "@/types";
+import { __catalog__guitars__ } from "./guitar.mocks";
+
 export interface __Catalog__ {
   id: number;
   title: string;
+  image: string;
+  catalogs: __Catalog_guitars__[] | null;
+}
+
+export interface __Catalog_guitars__ {
+  id: number;
+  title: string;
+  type: TypesOfGuitar;
   image: string;
 }
 
@@ -11,94 +22,49 @@ export const __catalog__: __Catalog__[] = [
     title: "Гитары",
     image:
       "https://i0.wp.com/10sguitars.com/wp-content/uploads/2021/07/10S-Guitars-V-2.png?resize=300%2C300&ssl=1",
+    catalogs: __catalog__guitars__,
   },
   {
     id: 2,
     title: "Гитарные струны",
     image:
       "https://guitar-guitar.ru/upload/iblock/762/zv5pg0dinymtvmp5i0a237c5sbg81anc.jpg",
+    catalogs: null,
   },
   {
     id: 3,
     title: "Гитарное усиление",
     image: "https://generated.vusercontent.net/placeholder.svg",
+    catalogs: null,
   },
   {
     id: 4,
     title: "Педали и процессоры эффектов",
     image: "https://generated.vusercontent.net/placeholder.svg",
+    catalogs: null,
   },
   {
     id: 5,
     title: "Чехлы и кейсы для гитар",
     image: "https://generated.vusercontent.net/placeholder.svg",
+    catalogs: null,
   },
   {
     id: 6,
     title: "Аксессуары для гитар",
     image: "https://generated.vusercontent.net/placeholder.svg",
+    catalogs: null,
   },
   {
     id: 7,
     title: "Комплектующие для гитар",
     image: "https://generated.vusercontent.net/placeholder.svg",
+    catalogs: null,
   },
   {
     id: 8,
     title: "Коммутация",
     image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-];
-
-export const __catalog__guitars__: __Catalog__[] = [
-  {
-    id: 9,
-    title: "Акустические гитары",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 10,
-    title: "Акустические гитары б/у",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 11,
-    title: "Электроакустические гитары",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 12,
-    title: "Классические гитары",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 13,
-    title: "Электрогитары",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 14,
-    title: "Электрогитары б/у",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 15,
-    title: "Полуакустические электрогитары",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 16,
-    title: "Бас-гитары",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 17,
-    title: "Бас-гитары б/у",
-    image: "https://generated.vusercontent.net/placeholder.svg",
-  },
-  {
-    id: 18,
-    title: "Акустические бас-гитары",
-    image: "https://generated.vusercontent.net/placeholder.svg",
+    catalogs: null,
   },
 ];
