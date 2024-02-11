@@ -1,4 +1,4 @@
-import { Card, CardHeader, Image, Link } from "@nextui-org/react";
+import { Card, CardBody, CardHeader, Image, Link } from "@nextui-org/react";
 
 type CatalogProps = {
   name: string;
@@ -9,17 +9,18 @@ type CatalogProps = {
 export const Catalog = (props: CatalogProps) => {
   return (
     <Link href={props.href}>
-      <Card className="p-6 w-full">
-        <CardHeader className="absolute z-10 top-1 flex-col items-start">
+      <Card className="px-2 w-full">
+        <CardHeader>
           <h1 className="font-medium text-xl">{props.name}</h1>
         </CardHeader>
-        <Image
-          removeWrapper
-          alt="Card background"
-          className="w-full py-8 px-4 rounded h-6/12 object-contain"
-          loading="lazy"
-          src={props.imgSrc}
-        />
+        <CardBody className="w-full flex items-center">
+          <Image
+            alt="Card background"
+            className="px-4 rounded w-full max-w-[400px] h-full max-h-[300px]"
+            loading="lazy"
+            src={props.imgSrc}
+          />
+        </CardBody>
       </Card>
     </Link>
   );
