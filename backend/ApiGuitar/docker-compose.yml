@@ -8,3 +8,8 @@ services:
       POSTGRES_PASSWORD: wasted
       POSTGRES_USER: postgres
       POSTGRES_DB: guitarr
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
