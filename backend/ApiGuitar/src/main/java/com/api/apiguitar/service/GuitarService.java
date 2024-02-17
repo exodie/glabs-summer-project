@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.math.BigDecimal;
 import java.util.Map;
+import java.util.function.BiConsumer;
 
 @Service
 public class GuitarService {
@@ -46,6 +47,7 @@ public class GuitarService {
         if (guitarRepository.findById(id).isEmpty()) {
             return ResponseEntity.badRequest().body(new MessageResponse("no such id"));
         }
+
         return ResponseEntity.ok(guitarRepository.findById(id));
     }
 
@@ -59,33 +61,24 @@ public class GuitarService {
     }
 
     public Guitar updateGuitar(@PathVariable Long id, @RequestBody Map<String, Object> updates) {
+        Map<String, BiConsumer<Guitar, Object>> setters = Map.of(
+                "name", (guitar, value) -> guitar.setName((String) value),
+                "brand", (guitar, value) -> guitar.setBrand((String) value),
+                "model", (guitar, value) -> guitar.setModel((String) value),
+                "description", (guitar, value) -> guitar.setDescription((String) value),
+                "price", (guitar, value) -> guitar.setPrice(BigDecimal.valueOf((Double) value)),
+                "stockQuantity", (guitar, value) -> guitar.setStockQuantity((int) value),
+                "category", (guitar, value) -> guitar.setCategory((String) value),
+                "imageUrl", (guitar, value) -> guitar.setImageUrl((String) value)
+        );
+
         return guitarRepository.findById(id)
                 .map(existingGuitar -> {
-                    if (updates.containsKey("name")) {
-                        existingGuitar.setName((String) updates.get("name"));
-                    }
-                    if (updates.containsKey("brand")) {
-                        existingGuitar.setBrand((String) updates.get("brand"));
-                    }
-                    if (updates.containsKey("model")) {
-                        existingGuitar.setModel((String) updates.get("model"));
-                    }
-                    if (updates.containsKey("description")) {
-                        existingGuitar.setDescription((String) updates.get("description"));
-                    }
-                    if (updates.containsKey("price")) {
-                        existingGuitar.setPrice(BigDecimal.valueOf((Double) updates.get("price")));
-                    }
-                    if (updates.containsKey("stockQuantity")) {
-                        existingGuitar.setStockQuantity((int) updates.get("stockQuantity"));
-                    }
-                    if (updates.containsKey("category")) {
-                        existingGuitar.setCategory((String) updates.get("category"));
-                    }
-                    if (updates.containsKey("imageUrl")) {
-                        existingGuitar.setImageUrl((String) updates.get("imageUrl"));
-                    }
-
+                    updates.forEach((key, value) -> {
+                        if (setters.containsKey(key)) {
+                            setters.get(key).accept(existingGuitar, value);
+                        }
+                    });
                     return guitarRepository.save(existingGuitar);
                 }).orElse(null);
     }
