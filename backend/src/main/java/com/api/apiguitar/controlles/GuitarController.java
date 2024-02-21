@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("api/catalog")
+@RequestMapping("api/catalog/guitars")
 public class GuitarController {
 
     private final GuitarService guitarService;
