@@ -51,14 +51,8 @@ public class AuthService {
                     .body(new MessageResponse("Error: phone is exist"));
         }
 
-        if (userRepository.existsByEmail(signupRequest.getEmail())) {
-            return ResponseEntity
-                    .badRequest()
-                    .body(new MessageResponse("Error: Email is exist"));
-        }
-
         User user = new User(signupRequest.getFirstName(), signupRequest.getLastName(),
-                signupRequest.getPhone(), signupRequest.getEmail(),
+                signupRequest.getPhone(),
                 passwordEncoder.encode(signupRequest.getPassword()));
 
         Set<String> reqRoles = signupRequest.getRoles();
