@@ -1,8 +1,29 @@
 import { ConditionGuitar, FirstSpecsOfGuitar, TypesOfGuitar } from "@/types";
 
+// TODO: Изменить данные на необходимые (по мере возможности)
 export const __acoustic_guitars__: FirstSpecsOfGuitar[] = [
   {
     codeOfItem: 540289,
+    name: "Les Paul Edition",
+    price: 50000,
+    caseColor: "Mystery color",
+    picture:
+      "https://skifmusic.ru/thumbs/catalog/58/eb/400x400_1_normal_11790dfab5ee62b6da82b92727b5.webp",
+    manufacturer: "Gibson",
+    type: TypesOfGuitar.ElectroGuitar,
+    condition: ConditionGuitar.VeryGood,
+    bodyShape: "Les Paul",
+    orientation: "Под правую руку",
+    numberOfStrings: 6,
+    numberOfFrets: 22,
+    beaker: 24.75,
+    article: "DMK319",
+  },
+  {
+    codeOfItem: 540289,
+    name: "Test1",
+    caseColor: "Mystery color",
+    price: 50000,
     picture:
       "https://skifmusic.ru/thumbs/10/03/600x600_1_normal_ef2d4a29911f2d6b95045d148392.webp",
     manufacturer: "Gibson",
@@ -17,6 +38,9 @@ export const __acoustic_guitars__: FirstSpecsOfGuitar[] = [
   },
   {
     codeOfItem: 540289,
+    name: "Test1",
+    caseColor: "Mystery color",
+    price: 50000,
     picture:
       "https://skifmusic.ru/thumbs/10/03/600x600_1_normal_ef2d4a29911f2d6b95045d148392.webp",
     manufacturer: "Gibson",
@@ -31,6 +55,9 @@ export const __acoustic_guitars__: FirstSpecsOfGuitar[] = [
   },
   {
     codeOfItem: 540289,
+    name: "Test1",
+    caseColor: "Mystery color",
+    price: 50000,
     picture:
       "https://skifmusic.ru/thumbs/10/03/600x600_1_normal_ef2d4a29911f2d6b95045d148392.webp",
     manufacturer: "Gibson",
@@ -45,6 +72,9 @@ export const __acoustic_guitars__: FirstSpecsOfGuitar[] = [
   },
   {
     codeOfItem: 540289,
+    name: "Test1",
+    caseColor: "Mystery color",
+    price: 50000,
     picture:
       "https://skifmusic.ru/thumbs/10/03/600x600_1_normal_ef2d4a29911f2d6b95045d148392.webp",
     manufacturer: "Gibson",
@@ -59,6 +89,9 @@ export const __acoustic_guitars__: FirstSpecsOfGuitar[] = [
   },
   {
     codeOfItem: 540289,
+    name: "Test1",
+    caseColor: "Mystery color",
+    price: 50000,
     picture:
       "https://skifmusic.ru/thumbs/10/03/600x600_1_normal_ef2d4a29911f2d6b95045d148392.webp",
     manufacturer: "Gibson",
@@ -73,20 +106,9 @@ export const __acoustic_guitars__: FirstSpecsOfGuitar[] = [
   },
   {
     codeOfItem: 540289,
-    picture:
-      "https://skifmusic.ru/thumbs/10/03/600x600_1_normal_ef2d4a29911f2d6b95045d148392.webp",
-    manufacturer: "Gibson",
-    type: TypesOfGuitar.ElectroGuitar,
-    condition: ConditionGuitar.VeryGood,
-    bodyShape: "Les Paul",
-    orientation: "Под правую руку",
-    numberOfStrings: 6,
-    numberOfFrets: 22,
-    beaker: 24.75,
-    article: "DMK319",
-  },
-  {
-    codeOfItem: 540289,
+    name: "Test1",
+    caseColor: "Mystery color",
+    price: 50000,
     picture:
       "https://skifmusic.ru/thumbs/10/03/600x600_1_normal_ef2d4a29911f2d6b95045d148392.webp",
     manufacturer: "Gibson",
