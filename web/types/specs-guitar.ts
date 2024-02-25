@@ -7,6 +7,8 @@ import {
 
 export interface SpecsOfGuitar {
   codeOfItem: number;
+  name?: string;
+  price: number;
   picture: string;
   type: TypesOfGuitar;
   manufacturer: string;
@@ -32,6 +34,9 @@ export interface SpecsOfGuitar {
 export type FirstSpecsOfGuitar = Pick<
   SpecsOfGuitar,
   | "codeOfItem"
+  | "name"
+  | "caseColor"
+  | "price"
   | "picture"
   | "manufacturer"
   | "type"
