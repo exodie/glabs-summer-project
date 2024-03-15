@@ -21,15 +21,8 @@ type Props = Pick<
 export const ProductCartOfItems: FC<Props> = (props) => {
   return (
     <div className="flex flex-col item-center px-2 py-4 gap-y-2 rounded-md">
-      {/*// TODO: h-[385] - костыль, переделать */}
-      <div className="w-full rounded-md">
-        <Image
-          className="w-full"
-          width={1000}
-          height={1000}
-          src={props.picture}
-          alt="__picture"
-        />
+      <div className="w-full h-full rounded-md">
+        <Image width={1000} height={1000} src={props.picture} alt="__picture" />
       </div>
 
       <Link
