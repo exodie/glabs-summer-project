@@ -1,12 +1,37 @@
 "use client";
 
-import { __catalog__guitars__ } from "@/__mocks__";
+import {
+  Dropdown,
+  DropdownTrigger,
+  DropdownMenu,
+  DropdownItem,
+  Button,
+} from "@nextui-org/react";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
+
 import { ProductCartOfItems } from "@/components/cart/product-cart";
 import { Filter, FilterComponent } from "@/components/filters/filter.component";
-import type { Query } from "@/types/query-params";
-import { Button } from "@nextui-org/button";
 
+import { __catalog__guitars__ } from "@/__mocks__";
+import type { Query } from "@/types/query-params";
+import { useMemo, useState, type Key } from "react";
+
+// TODO: Вынести все доступные фильтры в отдельную shared/
+const filteres: Filter[] = [
+  { header: "Цена", body: <>123</> },
+  { header: "Производители", body: <>456</> },
+  { header: "Состояния", body: <>789</> },
+  { header: "Рейтинг", body: <>146</> },
+  { header: "Наличие в магазинах", body: <>146</> },
+];
+
+// TODO: Переделать текущие dropdown под отдельный компонент
+// TODO: Отрефакторить этот файл до нормального вида
 export default function SelectWithId({ params: { id } }: Query) {
+  const [selectedKeys, setSelectedKeys] = useState<Set<Key> | "all">(
+    new Set(["В наличии"])
+  );
+
   const findCatalog = __catalog__guitars__.find(
     (catalog) => catalog.id === Number(id)
   )!.catalogs;
@@ -15,35 +40,14 @@ export default function SelectWithId({ params: { id } }: Query) {
     (name) => name.id === Number(id)
   )!.title;
 
-  const filteres: Filter[] = [
-    { header: "Цена", body: <>123</> },
-    { header: "Производители", body: <>456</> },
-    { header: "Состояния", body: <>789</> },
-    { header: "Рейтинг", body: <>146</> },
-    { header: "Наличие в магазинах", body: <>146</> },
-  ];
+  const selectedValue = useMemo(
+    () => Array.from(selectedKeys).join(", ").replaceAll("_", " "),
+    [selectedKeys]
+  );
 
   return (
     <section className="container mx-auto flex flex-col">
       <h1 className="font-bold text-2xl mb-4">{findNameCatalog}</h1>
-
-      {/* Fast filters */}
-      <div className="py-2 flex flex-row gap-x-4">
-        <Button variant="ghost">Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-        <Button>Test1</Button>
-      </div>
 
       <div className="flex">
         <div className="w-1/4 flex flex-col gap-y-4">
@@ -54,7 +58,62 @@ export default function SelectWithId({ params: { id } }: Query) {
           ))}
         </div>
         <div className="w-9/12">
-          <h3 className="font-bold text-xl">{findCatalog?.length} найдено</h3>
+          <div className="flex flex-row items-center mb-4">
+            <h3 className="font-bold text-xl">{findCatalog?.length} найдено</h3>
+
+            <div className="mr-0 ml-auto flex gap-x-2">
+              {/* // TODO: Проблемы с отображением в {selectedValue} из за русского языка */}
+              <Dropdown>
+                <DropdownTrigger>
+                  <Button
+                    // className="rounded-md"
+                    variant="bordered"
+                    className="capitalize"
+                  >
+                    {selectedValue}
+                    <ChevronDownIcon />
+                  </Button>
+                </DropdownTrigger>
+                <DropdownMenu
+                  aria-label="Single selection example"
+                  variant="flat"
+                  disallowEmptySelection
+                  selectionMode="single"
+                  selectedKeys={selectedKeys}
+                  onSelectionChange={(keys) =>
+                    setSelectedKeys(keys as Set<string>)
+                  }
+                >
+                  <DropdownItem key="stock">В наличии</DropdownItem>
+                  <DropdownItem key="stockAndOrder">
+                    В наличии и под заказ
+                  </DropdownItem>
+                  <DropdownItem key="order">Под заказ</DropdownItem>
+                  <DropdownItem key="missing">Отсутствующие</DropdownItem>
+                </DropdownMenu>
+              </Dropdown>
+
+              <Dropdown>
+                <DropdownTrigger>
+                  <Button className="rounded-md" variant="bordered">
+                    Все товары <ChevronDownIcon />
+                  </Button>
+                </DropdownTrigger>
+                <DropdownMenu aria-label="Static Actions">
+                  <DropdownItem key="new">New file</DropdownItem>
+                  <DropdownItem key="copy">Copy link</DropdownItem>
+                  <DropdownItem key="edit">Edit file</DropdownItem>
+                  <DropdownItem
+                    key="delete"
+                    className="text-danger"
+                    color="danger"
+                  >
+                    Delete file
+                  </DropdownItem>
+                </DropdownMenu>
+              </Dropdown>
+            </div>
+          </div>
 
           <div className="bg-gray-100 ml-auto mr-0 rounded-sm p-4 grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3">
             {findCatalog?.map((item, index) => (
