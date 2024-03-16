@@ -64,8 +64,8 @@ public class AuthService {
                     .orElseThrow(() -> new RuntimeException("Error, Role USER is not found"));
             roles.add(userRole);
         } else {
-            reqRoles.forEach(r -> {
-                switch (r) {
+            reqRoles.forEach(role -> {
+                switch (role) {
                     case "admin":
                         Role adminRole = roleRepository
                                 .findByName(ERole.ROLE_ADMIN)
