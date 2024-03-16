@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("api/catalog/string")
+@RequestMapping("api/product/string")
 public class StringController {
 
     @Autowired
