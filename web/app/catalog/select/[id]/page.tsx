@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo, useState, type Key } from "react";
 import {
   Dropdown,
   DropdownTrigger,
@@ -14,7 +15,6 @@ import { Filter, FilterComponent } from "@/components/filters/filter.component";
 
 import { __catalog__guitars__ } from "@/__mocks__";
 import type { Query } from "@/types/query-params";
-import { useMemo, useState, type Key } from "react";
 
 // TODO: Вынести все доступные фильтры в отдельную shared/
 const filteres: Filter[] = [
