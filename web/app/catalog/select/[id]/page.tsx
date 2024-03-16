@@ -65,11 +65,7 @@ export default function SelectWithId({ params: { id } }: Query) {
               {/* // TODO: Проблемы с отображением в {selectedValue} из за русского языка */}
               <Dropdown>
                 <DropdownTrigger>
-                  <Button
-                    // className="rounded-md"
-                    variant="bordered"
-                    className="capitalize"
-                  >
+                  <Button className="rounded-md capitalize" variant="bordered">
                     {selectedValue}
                     <ChevronDownIcon />
                   </Button>
@@ -95,7 +91,7 @@ export default function SelectWithId({ params: { id } }: Query) {
 
               <Dropdown>
                 <DropdownTrigger>
-                  <Button className="rounded-md" variant="bordered">
+                  <Button className="rounded-md capitalize" variant="bordered">
                     Все товары <ChevronDownIcon />
                   </Button>
                 </DropdownTrigger>
@@ -115,7 +111,7 @@ export default function SelectWithId({ params: { id } }: Query) {
             </div>
           </div>
 
-          <div className="bg-gray-100 ml-auto mr-0 rounded-sm p-4 grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3">
+          <div className="ml-auto mr-0 rounded-sm p-4 grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3">
             {findCatalog?.map((item, index) => (
               <ProductCartOfItems key={index} {...item} />
             ))}
