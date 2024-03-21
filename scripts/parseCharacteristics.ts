@@ -1,4 +1,4 @@
-import { TranslatedKeysElectro } from "./keys/ELECTRO_T_KEYS";
+import { TranslatedKeysStandart } from "./keys/STANDART_T_KEYS";
 
 /**
  * Функция для парсинга ключа с строкой в мн-во ключей со значениями
@@ -15,7 +15,7 @@ function parseCharacteristics(characteristics: string) {
     const key = match[1].trim();
     const value = match[2].trim();
     const translatedKey =
-      TranslatedKeysElectro[key as keyof typeof TranslatedKeysElectro] || key;
+      TranslatedKeysStandart[key as keyof typeof TranslatedKeysStandart] || key;
     keyValuePairs[translatedKey] = value;
   }
 
