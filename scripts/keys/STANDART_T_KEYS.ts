@@ -30,6 +30,8 @@ export enum TranslatedKeysStandart {
   "В комплекте" = "included",
   "Серия" = "series",
   "Страна бренда" = "countryOfBrand",
+  "Уровень инструмента" = "toolLevel",
+  "Размер инструмента" = "toolSize"
 }
 
 export enum TranslatedKeysStrings {
