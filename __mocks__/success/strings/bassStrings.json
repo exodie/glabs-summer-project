@@ -1,0 +1,1220 @@
+{
+  "bassStrings": [
+    {
+      "name": "Струны для бас-гитары The Rose 45-105 Red",
+      "price": "250 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "543692",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "The Rose",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "polymerCoating": "есть",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "The Rose 45-105 Red",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары The Rose 45-105 Blue",
+      "price": "250 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "543693",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "The Rose",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "polymerCoating": "есть",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "The Rose 45-105 Blue",
+        "weight": "0.1 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 2833 45-105, никелированная сталь",
+      "price": "2 880 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "1726",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "P02833",
+        "weight": "0.11 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Ernie Ball 2836 45-130",
+      "price": "3 520 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "1730",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 80, 100, 130",
+        "article": "P02836",
+        "weight": "0.17 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 2835 40-95",
+      "price": "2 880 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "416872",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-95",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "40, 60, 70, 95",
+        "article": "P02835",
+        "weight": "0.11 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 2831 55-110",
+      "price": "2 880 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "1728",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "55-110",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "55, 75, 90, 110",
+        "article": "P02831",
+        "weight": "0.15 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 2854 40-100",
+      "price": "2 880 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "454226",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-100",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "40, 60, 80, 100",
+        "article": "P02854",
+        "weight": "0.1 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 2834 45-100, никелированная сталь",
+      "price": "2 880 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "416873",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-100",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 80, 100",
+        "article": "P02834",
+        "weight": "0.11 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 2841 Nickel Wound Slinky Hyper 40-100",
+      "price": "2 880 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "483249",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-100",
+        "material": "сталь никелированная",
+        "caliberOfString": "40, 60, 80, 100",
+        "article": "P02841",
+        "weight": "0.15 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 2856 Regular Slinky Medium Scale 45-105",
+      "price": "2 740 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "489502",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная, сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "P02856",
+        "weight": "0.11 кг"
+      }
+    },
+    {
+      "name": "Струны для 6-струнной бас-гитары Ernie Ball 2838 32-130",
+      "price": "3 740 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "171781",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "6",
+        "sizeOfSet": "32-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "32, 45, 65, 80, 100, 130",
+        "article": "P02838",
+        "weight": "0.18 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 3833 Coated Bass Hybrid Slinky 45-105",
+      "price": "4 250 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "443996",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Coated Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "P03833",
+        "weight": "0.14 кг"
+      }
+    },
+    {
+      "name": "Струны для 6-струнной бас-гитары Warwick 42401 M 6 Red Label 25-135",
+      "price": "1 890 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "451418",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Warwick",
+        "series": "Red Label",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "6",
+        "sizeOfSet": "25-135",
+        "material": "сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "25, 45, 65, 85, 105, 135",
+        "article": "42401 M 6",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для 6-струнной бас-гитары Warwick 46401 M 6 Red Label 25-135",
+      "price": "1 790 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "388832",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Warwick",
+        "series": "Red Label",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "6",
+        "sizeOfSet": "25-135",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "25, 45, 65, 85, 105, 135",
+        "article": "46401 M 6",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Warwick 46301 M 5B Red Label 45-135",
+      "price": "1 590 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "413744",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Warwick",
+        "series": "Red Label",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-135",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 135",
+        "article": "46301 M 5B",
+        "weight": "0.19 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Warwick 42301 M 5B Red Label 45-135",
+      "price": "1 590 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "350233",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Warwick",
+        "series": "Red Label",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-135",
+        "material": "сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105, 135",
+        "article": "42301 M 5B",
+        "weight": "0.2 кг"
+      }
+    },
+    {
+      "name": "Струны для 6-струнной бас-гитары Ernie Ball 2837 20-90",
+      "price": "1 590 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "380536",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "6",
+        "sizeOfSet": "20-90",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "20, 30, 42, 54, 74, 90",
+        "article": "P02837",
+        "weight": "0.09 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Warwick 42200 M 4 Red Label 45-105",
+      "price": "1 190 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "451417",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Warwick",
+        "series": "Red Label",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "42200 M 4",
+        "weight": "0.13 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Warwick 46200 M 4 Red Label 45-105",
+      "price": "1 190 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "364091",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Warwick",
+        "series": "Red Label",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "46200 M 4",
+        "weight": "0.13 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Elixir 14077 45-105",
+      "price": "9 270 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "12494",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Elixir",
+        "series": "Nanoweb",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "14077",
+        "weight": "0.15 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Elixir Nanoweb 14202 45-130",
+      "price": "11 590 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "426236",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Elixir",
+        "series": "Nanoweb",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105, 130",
+        "article": "14202",
+        "weight": "0.19 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Ernie Ball 2813 Hybrid Slinky Flatwound Bass 45-105",
+      "price": "7 760 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "443987",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Flatwound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь кобальтированная",
+        "typeOfBraid": "плоская",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "P02813",
+        "weight": "0.12 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Ernie Ball 2810 Flat Wound Bass 5 45-130",
+      "price": "7 575 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "443990",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Flatwound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "плоская",
+        "caliberOfString": "45, 65, 80, 100, 130",
+        "article": "P02810",
+        "weight": "0.12 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары D'Addario EXL170M 45-100",
+      "price": "3 130 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "430474",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "D'Addario",
+        "series": "XL Nickel",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-100",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 80, 100",
+        "article": "EXL170M",
+        "weight": "0.11 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Dean Markley 2604A 45-105",
+      "price": "2 990 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "417065",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Dean Markley",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "2604A",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары МозерЪ Hit Drive BNH-5М 45-130",
+      "price": "2 890 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "439768",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "МозерЪ",
+        "condition": "Новое",
+        "country": "Россия",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105, 130",
+        "article": "BNH 5M",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Ernie Ball 2824 40-125",
+      "price": "3 520 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "381188",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "40-125",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "40, 60, 75, 95, 125",
+        "article": "P02824",
+        "weight": "0.16 кг"
+      }
+    },
+    {
+      "name": "Струны для 5 струнной бас-гитары ERNIE BALL 2821 Nickel Wound Slinky Power 50-135",
+      "price": "3 520 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "477213",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "50-135",
+        "material": "никель",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "50, 70, 85, 105, 135",
+        "article": "P02821",
+        "weight": "0.2 кг"
+      }
+    },
+    {
+      "name": "Струны для 6-струнной бас-гитары Мозеръ Hit Drive BNH-6М 30-130",
+      "price": "2 690 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "439766",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "МозерЪ",
+        "condition": "Новое",
+        "country": "Россия",
+        "countOfSets": "1",
+        "valueOfStrings": "6",
+        "sizeOfSet": "30-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "30, 45, 65, 85, 105, 130",
+        "article": "BNH 6M",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары D'Addario EXL160SL 50-105",
+      "price": "3 680 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "287212",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "D'Addario",
+        "series": "XL Nickel",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "50-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "50, 70, 85, 105",
+        "article": "EXL160SL",
+        "weight": "0.14 кг"
+      }
+    },
+    {
+      "name": "Струны для 6-струнной бас-гитары МозерЪ Hit Drive BNH-6МL 30-125",
+      "price": "2 690 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "439767",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "МозерЪ",
+        "condition": "Новое",
+        "country": "Россия",
+        "countOfSets": "1",
+        "valueOfStrings": "6",
+        "sizeOfSet": "30-125",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "30, 45, 65, 85, 105, 125",
+        "article": "BNH 6ML",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Dunlop DBN45105S 45-105",
+      "price": "2 690 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "441461",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Dunlop",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "DBN45105S",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Комплект струн для бас-гитары Dean Markley DM2674A Blue Steel NPS, 45-105",
+      "price": "3 790 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "478110",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Dean Markley",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "caliberOfString": "45, 65, 80, 105",
+        "article": "2674A",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Dunlop DBN45105XL 45-105",
+      "price": "3 940 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "451529",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Dunlop",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "DBN45105XL",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Dunlop DBN45105 45-105",
+      "price": "3 940 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "406415",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Dunlop",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "DBN45105",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары МозерЪ Hit Drive BNH-L 40-100",
+      "price": "2 150 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "439763",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "МозерЪ",
+        "condition": "Новое",
+        "country": "Россия",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-100",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "40, 60, 80, 100",
+        "article": "BNH L",
+        "weight": "0.12 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Everly 6240 40-100",
+      "price": "1 990 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "541674",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Everly",
+        "condition": "Новое",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-100",
+        "material": "сталь",
+        "typeOfBraid": "круглая",
+        "article": "6240",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Комплект струн для бас-гитары Dean Markley Blue Steel DM2674, 45-105",
+      "price": "1 990 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "466346",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Dean Markley",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 80, 105",
+        "article": "DM2674",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Warwick 42300 ML 5B Red Label 40-130",
+      "price": "1 835 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "401632",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Warwick",
+        "series": "Red Label",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "40-130",
+        "material": "сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "40, 60, 80, 100, 130",
+        "article": "42300 ML 5B",
+        "weight": "0.2 кг"
+      }
+    },
+    {
+      "name": "Струны для 4-струнной бас-гитары IBANEZ IEBS4CMK 45-105 короткая мензура никелированная сталь",
+      "price": "1 800 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "538144",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ibanez",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45",
+        "article": "IEBS4CMK",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны бас-гитары Olympia EBS455",
+      "price": "1 625 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "449225",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Olympia",
+        "condition": "Новое",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-125",
+        "material": "никель",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 80, 100, 125",
+        "article": "EBS455",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Dunlop DBN45100 45-100",
+      "price": "4 990 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "407179",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Dunlop",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-100",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 80, 100",
+        "article": "DBN45100",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Alice A608(4)-M 45-105",
+      "price": "1 399 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "410751",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Alice",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "A608(4)-M",
+        "weight": "0.04 кг"
+      }
+    },
+    {
+      "name": "Струны для 6-струнной бас-гитары Alice A606(6)-M 32-130",
+      "price": "1 399 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "409243",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Alice",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "6",
+        "sizeOfSet": "32-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "32, 45, 65, 85, 105, 130",
+        "article": "A606(6)-M",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары МозерЪ Hit Drive BNH-M 45-105",
+      "price": "1 300 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "439762",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "МозерЪ",
+        "condition": "Новое",
+        "country": "Россия",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "BNH M",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Olympia EBS440 Nickel Wound (45-65-80-100)",
+      "price": "1 300 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "456714",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Olympia",
+        "condition": "Новое",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-100",
+        "material": "никель, сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 80",
+        "article": "EBS440",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Alice A616-L 40-95",
+      "price": "1 290 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "410761",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Alice",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-95",
+        "material": "сталь покрытая медью",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "40, 60, 75, 95",
+        "article": "A616-L",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Alice A606(4)-L 40-95",
+      "price": "1 190 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "410742",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Alice",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-95",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "40, 60, 75, 95",
+        "article": "A606(4)-L",
+        "weight": "0.1 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Veston B4530 Electric Bass 45-130",
+      "price": "1 230 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "490978",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Veston",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-130",
+        "material": "никель, сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105, 130",
+        "article": "B4530",
+        "weight": "0.17 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Rockdale PRO 45-105 Nickel Wound 4 Light",
+      "price": "1 200 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "538194",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Rockdale",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "никель",
+        "typeOfBraid": "круглая",
+        "article": "Вес: 0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Alice A606(4)-M 45-105",
+      "price": "1 190 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "397813",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Alice",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "A606(4)-M",
+        "weight": "0.11 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары Rockdale PRO 50-110 Nickel Wound 4 Medium",
+      "price": "1 200 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "538201",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Rockdale",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "50-110",
+        "material": "никель",
+        "typeOfBraid": "круглая",
+        "article": "Вес: 0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Alice A608 M 45-130",
+      "price": "1 099 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "384835",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Alice",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105, 130",
+        "article": "A608-M",
+        "weight": "0.17 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары VESTON B 4505",
+      "price": "890 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "467455",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Veston",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-105",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105",
+        "article": "B4505",
+        "weight": "0.12 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Ernie Ball 2850 Nickel Bass SLS Slinky 5 45-130",
+      "price": "5 560 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "443998",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Ernie Ball",
+        "series": "Slinky Nickel Wound Bass",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105, 130",
+        "article": "P02850",
+        "weight": "0.12 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары STAX BFS-001 43-95",
+      "price": "790 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "540932",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "STAX",
+        "condition": "Новое",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-95",
+        "material": "сталь",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "43, 53, 65, 95",
+        "article": "BFS-001",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Струны для 5-струнной бас-гитары Alice A606(5)-M 45-130",
+      "price": "755 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "410750",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "Alice",
+        "condition": "Новое",
+        "country": "Китай",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-130",
+        "material": "сталь никелированная",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105, 130",
+        "article": "A606(5)-M",
+        "weight": "0.16 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары D'Addario ENR71 45-100",
+      "price": "5 652 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "287195",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "D'Addario",
+        "series": "XL Half Rounds",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "45-100",
+        "material": "сталь никелированная",
+        "typeOfBraid": "полукруглая",
+        "caliberOfString": "45, 65, 80, 100",
+        "article": "ENR71",
+        "weight": "0.15 кг"
+      }
+    },
+    {
+      "name": "Струны для бас-гитары DR Strings NMCB5-45 45-125 (люминисцентные)",
+      "price": "6 355 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "457975",
+        "type": "Струны для бас-гитары",
+        "nameOfBrand": "DR Strings",
+        "condition": "Новое",
+        "country": "США",
+        "countOfSets": "1",
+        "valueOfStrings": "5",
+        "sizeOfSet": "45-125",
+        "material": "никель",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "45, 65, 85, 105, 125",
+        "article": "NMCB5-45",
+        "weight": "0.05 кг"
+      }
+    },
+    {
+      "name": "Olympia CTB45128 струны для акустической бас-гитары (40-60-75-95)",
+      "price": "2 805 ₽",
+      "type": "new",
+      "characteristics": {
+        "codeOfItem": "466767",
+        "type": "Струны для акустической бас-гитары",
+        "nameOfBrand": "Olympia",
+        "condition": "Новое",
+        "countOfSets": "1",
+        "valueOfStrings": "4",
+        "sizeOfSet": "40-95",
+        "material": "никель, бронза",
+        "typeOfBraid": "круглая",
+        "caliberOfString": "40, 60, 75, 95",
+        "article": "CTB45128",
+        "weight": "0.05 кг"
+      }
+    }
+  ]
+}
