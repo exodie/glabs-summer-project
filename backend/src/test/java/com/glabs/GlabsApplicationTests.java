@@ -1,13 +1,13 @@
-package com.api.apiguitar;
+package com.glabs;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiGuitarApplicationTests {
+class GlabsApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
