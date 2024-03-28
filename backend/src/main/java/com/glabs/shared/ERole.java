@@ -1,4 +1,4 @@
-package com.glabs.models;
+package com.glabs.shared;
 
 public enum ERole {
   ROLE_USER,

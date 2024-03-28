@@ -2,6 +2,7 @@ package com.glabs.repositories;
 
 import java.util.Optional;
 
+import com.glabs.shared.ERole;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import com.glabs.models.*;

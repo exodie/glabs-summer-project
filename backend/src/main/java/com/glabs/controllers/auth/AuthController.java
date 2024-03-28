@@ -1,4 +1,4 @@
-package com.glabs.entities.user.controllers;
+package com.glabs.controllers.auth;
 
 import com.glabs.entities.user.services.UserService;
 import jakarta.validation.Valid;

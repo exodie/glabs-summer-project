@@ -1,5 +1,6 @@
 package com.glabs.models;
 
+import com.glabs.shared.ERole;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

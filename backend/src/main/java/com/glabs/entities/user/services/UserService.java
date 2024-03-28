@@ -1,7 +1,7 @@
 package com.glabs.entities.user.services;
 
 
-import com.glabs.models.ERole;
+import com.glabs.shared.ERole;
 import com.glabs.models.Role;
 import com.glabs.models.User;
 import com.glabs.payload.request.LoginRequest;
@@ -24,7 +24,6 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
