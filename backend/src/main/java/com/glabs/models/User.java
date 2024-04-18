@@ -10,6 +10,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
@@ -19,6 +20,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Data
 @Document(collection = "users")
+@NoArgsConstructor
 public class User {
 
     @Id
@@ -47,9 +49,6 @@ public class User {
     private List<String> shops;
     @Field(write = Field.Write.ALWAYS)
     private int scores;
-
-    public User() {
-    }
 
     public User(String username, String email, String password, String firstName, String lastName, String phoneNumber) {
         this.username = username;
