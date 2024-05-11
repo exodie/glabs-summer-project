@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.glabs.models.User;
-import com.glabs.repositories.UserRepository;
+import com.glabs.entities.user.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
