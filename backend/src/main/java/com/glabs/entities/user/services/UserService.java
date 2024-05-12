@@ -9,11 +9,10 @@ import com.glabs.payload.request.SignUpRequest;
 import com.glabs.payload.request.UpdateUserRequest;
 import com.glabs.payload.response.JwtResponse;
 import com.glabs.payload.response.MessageResponse;
-import com.glabs.repositories.RoleRepository;
-import com.glabs.repositories.UserRepository;
+import com.glabs.commonRepositories.RoleRepository;
+import com.glabs.entities.user.repository.UserRepository;
 import com.glabs.security.jwt.JwtUtils;
 import com.glabs.security.services.UserDetailsImpl;
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.BeanWrapper;
@@ -26,14 +25,11 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
-import org.springframework.validation.ObjectError;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.util.UriComponentsBuilder;
 
 import java.beans.PropertyDescriptor;
-import java.lang.reflect.Field;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -47,10 +43,17 @@ public class UserService {
     private final AuthenticationManager authenticationManager;
     private final JwtUtils jwtUtils;
 
-    public ResponseEntity<?> createUser(@Valid @RequestBody SignUpRequest signUpRequest, BindingResult bindingResult) {
+
+    public ResponseEntity<?> createUser(SignUpRequest signUpRequest,
+                                        BindingResult bindingResult,
+                                        UriComponentsBuilder uriComponentsBuilder) throws BindException {
 
         if (bindingResult.hasErrors()) {
-            return sendBindingResult(bindingResult);
+            if (bindingResult instanceof BindException exception) {
+                throw exception;
+            } else {
+                throw new BindException(bindingResult);
+            }
         }
 
         if (userRepository.existsByUsername(signUpRequest.getUsername())) {
@@ -117,17 +120,28 @@ public class UserService {
                 .map(GrantedAuthority::getAuthority)
                 .collect(Collectors.toList());
 
-        return ResponseEntity.ok(new JwtResponse(jwt,
-                userDetails.getId(),
-                userDetails.getUsername(),
-                userDetails.getEmail(),
-                Roles));
+        return ResponseEntity
+                .created(uriComponentsBuilder
+                        .replacePath("/api/user")
+                        .queryParam("id", user.getId())
+                        .build().toUri())
+                .body(new JwtResponse(
+                        jwt,
+                        userDetails.getId(),
+                        userDetails.getUsername(),
+                        userDetails.getEmail(),
+                        Roles));
     }
 
-    public ResponseEntity<?> signIn(@Valid @RequestBody LoginRequest loginRequest, BindingResult bindingResult){
+    public ResponseEntity<?> signIn(LoginRequest loginRequest,
+                                    BindingResult bindingResult) throws BindException {
 
         if (bindingResult.hasErrors()) {
-            return sendBindingResult(bindingResult);
+            if (bindingResult instanceof BindException exception) {
+                throw exception;
+            } else {
+                throw new BindException(bindingResult);
+            }
         }
 
         Authentication authentication = authenticationManager.authenticate(
@@ -148,31 +162,19 @@ public class UserService {
                 roles));
     }
 
-    public ResponseEntity<List<User>> getAll(){
+    public ResponseEntity<List<User>> getAll() {
         List<User> users = userRepository.findAll();
         return ResponseEntity.ok().body(users);
     }
 
-    public ResponseEntity<?> getUserById(String id){
-        Optional<User> optionalUser = userRepository.findById(id);
-        if(optionalUser.isEmpty()){
-            return ResponseEntity.notFound().build();
-        }
-        return ResponseEntity.ok().body(optionalUser.get());
-
-    }
-
-    public ResponseEntity<?> updateUser(String id, UpdateUserRequest updateUserRequest){
+    public ResponseEntity<?> updateUser(String id, UpdateUserRequest updateUserRequest) {
 
         ResponseEntity<?> validationResponse = updateUserRequest.validateFields();
         if (validationResponse != null) {
             return validationResponse;
         }
 
-        User user = userRepository.findById(id).orElse(null);
-        if (user == null) {
-            return ResponseEntity.notFound().build();
-        }
+        User user = userRepository.findById(id).get();
 
         BeanUtils.copyProperties(updateUserRequest, user, getNullPropertyNames(updateUserRequest));
 
@@ -181,15 +183,9 @@ public class UserService {
         return ResponseEntity.ok().body(user);
     }
 
-    public ResponseEntity<?> deleteUser(String id){
-        Optional<User> optionalUser = userRepository.findById(id);
-        if (optionalUser.isPresent()){
-            userRepository.deleteById(id);
-            return ResponseEntity.ok().body(new MessageResponse("id: " + id + " success delete"));
-        }
-        else{
-            return ResponseEntity.notFound().build();
-        }
+    public ResponseEntity<?> deleteUser(String id) {
+        userRepository.deleteById(id);
+        return ResponseEntity.ok().body(new MessageResponse("id: " + id + " success delete"));
     }
 
     private String[] getNullPropertyNames(UpdateUserRequest source) {
@@ -204,19 +200,4 @@ public class UserService {
         return emptyNames.toArray(result);
     }
 
-    private ResponseEntity<?> sendBindingResult(BindingResult bindingResult){
-        List<Map<String, String>> errors = bindingResult.getAllErrors().stream()
-                .map(error -> {
-                    Map<String, String> errorDetails = new HashMap<>();
-                    if (error instanceof FieldError) {
-                        FieldError fieldError = (FieldError) error;
-                        errorDetails.put("field", fieldError.getField());
-                    }
-                    errorDetails.put("defaultMessage", error.getDefaultMessage());
-                    return errorDetails;
-                })
-                .collect(Collectors.toList());
-
-        return ResponseEntity.badRequest().body(errors);
-    }
 }

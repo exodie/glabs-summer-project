@@ -1,4 +1,4 @@
-package com.glabs.repositories;
+package com.glabs.commonRepositories;
 
 import java.util.Optional;
 

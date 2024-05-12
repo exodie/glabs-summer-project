@@ -12,12 +12,13 @@ import org.bson.Document;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
 public class JsonToMongo {
     public static void main(String[] args) throws IOException {
-        String jsonFolderPath = "INSERT_ABSOLUTE_PATH_YO_YOUR_PACKAGE_WITH_JSONS";
+        String jsonFolderPath = "C:\\Users\\kaifarik\\IdeaProjects\\glabs-summer-project\\backend\\src\\main\\java\\com\\glabs\\scripts\\Jsons";
         File folder = new File(jsonFolderPath);
 
         if (!folder.exists() || !folder.isDirectory()) {
@@ -50,16 +51,30 @@ public class JsonToMongo {
 
                     Set<String> existingGuitarCodes = new HashSet<>();
                     for (Document document : collection.find()) {
-                        Document characteristics = (Document) document.get("characteristics");
+                        List<String> characteristics = (List<String>) document.get("characteristics");
                         if (characteristics != null) {
-                            existingGuitarCodes.add(characteristics.getString("codeOfItem"));
+                            for (String characteristic : characteristics) {
+                                if (characteristic.startsWith("Код товара:")) {
+                                    String code = characteristic.split(":")[1].trim();
+                                    existingGuitarCodes.add(code);
+                                    break;
+                                }
+                            }
                         }
                     }
 
                     int matchingGuitarsCount = 0;
                     for (JsonNode guitarNode : guitarsNode) {
-                        String guitarCode = guitarNode.get("characteristics").get("codeOfItem").asText();
-                        if (existingGuitarCodes.contains(guitarCode)) {
+                        String guitarCode = null;
+                        JsonNode characteristicsArrayNode = guitarNode.get("characteristics");
+                        for (JsonNode characteristicNode : characteristicsArrayNode) {
+                            String characteristic = characteristicNode.asText();
+                            if (characteristic.startsWith("Код товара:")) {
+                                guitarCode = characteristic.split(":")[1].trim();
+                                break;
+                            }
+                        }
+                        if (guitarCode != null && existingGuitarCodes.contains(guitarCode)) {
                             matchingGuitarsCount++;
                         }
                     }
@@ -74,8 +89,16 @@ public class JsonToMongo {
                         int existingRecordsCount = 0;
 
                         for (JsonNode guitarNode : guitarsNode) {
-                            String guitarCode = guitarNode.get("characteristics").get("codeOfItem").asText();
-                            if (!existingGuitarCodes.contains(guitarCode)) {
+                            String guitarCode = null;
+                            JsonNode characteristicsArrayNode = guitarNode.get("characteristics");
+                            for (JsonNode characteristicNode : characteristicsArrayNode) {
+                                String characteristic = characteristicNode.asText();
+                                if (characteristic.startsWith("Код товара:")) {
+                                    guitarCode = characteristic.split(":")[1].trim();
+                                    break;
+                                }
+                            }
+                            if (guitarCode != null && !existingGuitarCodes.contains(guitarCode)) {
                                 Document guitarDocument = Document.parse(guitarNode.toString());
                                 collection.insertOne(guitarDocument);
                                 newRecordsCount++;
