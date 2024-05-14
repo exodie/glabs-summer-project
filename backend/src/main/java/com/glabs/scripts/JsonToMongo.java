@@ -19,7 +19,7 @@ import java.util.Set;
 
 public class JsonToMongo {
     public static void main(String[] args) throws IOException {
-        String jsonFolderPath = "C:\\Users\\kaifarik\\IdeaProjects\\glabs-summer-project\\backend\\src\\main\\java\\com\\glabs\\scripts\\Jsons\\String";
+        String jsonFolderPath = "C:\\Users\\kaifarik\\IdeaProjects\\glabs-summer-project\\backend\\src\\main\\java\\com\\glabs\\scripts\\Jsons\\Amp";
         File folder = new File(jsonFolderPath);
 
         if (!folder.exists() || !folder.isDirectory()) {

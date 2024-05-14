@@ -1,0 +1,105 @@
+{
+  "cabinetAmp": [
+    {
+      "name": "Кабинет для электрогитары Peavey 6505 4x12 Straight, Celestion Vintage 30",
+      "price": "141 850 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 520618",
+        "Тип: Кабинет для электрогитары",
+        "Производитель: Peavey",
+        "Состояние: Новое",
+        "Страна производства: Китай",
+        "Модель динамиков: Celestion Vintage 30",
+        "Конфигурация динамиков: 4x12",
+        "Выходная мощность, Ватт: 240",
+        "Сопротивление, Ом: 8, 16",
+        "Цвет: черный",
+        "Артикул: 00575710",
+        "Вес: 46.7 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/c2/1a/600x600_1_normal_e8d7aa031671f3dad9e76689152e.webp"
+      ]
+    },
+    {
+      "name": "Кабинет для электрогитары Yerasov Bull-V1V+L 180W 2x12 16 Ohm",
+      "price": "60 000 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 406442",
+        "Тип: Кабинет для электрогитары",
+        "Производитель: Yerasov",
+        "Серия: Bull-V1",
+        "Состояние: Новое",
+        "Страна производства: Россия",
+        "Модель динамиков: Celestion G12 Vintage 30, Eminence Legend V128",
+        "Конфигурация динамиков: 2x12",
+        "Выходная мощность, Ватт: 180",
+        "Сопротивление, Ом: 4, 16",
+        "Корпус: фанера",
+        "Цвет: черный",
+        "Тип кабинета: Закрытый",
+        "Фазоинвертор: нет",
+        "Артикул: Bull-V1V+L",
+        "Вес: 35 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/37/48/600x600_1_normal_99ee658f1fb1bdd84307adf6bfb4.webp",
+        "https://skifmusic.ru/thumbs/87/79/600x600_1_normal_8feb4da21fbb59430f75572e4a43.webp",
+        "https://skifmusic.ru/thumbs/05/dc/600x600_1_normal_b3c86fe7bf9baf3cfdfd35b45c66.webp"
+      ]
+    },
+    {
+      "name": "Кабинет для электрогитары Yerasov Bull-V1K 200W 2x12 16 Ohm",
+      "price": "60 260 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 493208",
+        "Тип: Кабинет для электрогитары",
+        "Производитель: Yerasov",
+        "Серия: Bull-V1",
+        "Состояние: Новое",
+        "Страна производства: Россия",
+        "Модель динамиков: Celestion G12K-100",
+        "Конфигурация динамиков: 2x12",
+        "Выходная мощность, Ватт: 200",
+        "Сопротивление, Ом: 16",
+        "Корпус: фанера",
+        "Цвет: черный",
+        "Тип кабинета: Закрытый",
+        "Фазоинвертор: нет",
+        "Артикул: Bull-V1-K",
+        "Вес: 25 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/b6/36/600x600_1_normal_ea694863efdde5360451f16324fe.webp",
+        "https://skifmusic.ru/thumbs/90/3e/600x600_1_normal_84a96f71ae503c46d3ed42e199cf.webp",
+        "https://skifmusic.ru/thumbs/5c/b9/600x600_1_normal_2bdaa705a5de3fc888a17974f810.webp"
+      ]
+    },
+    {
+      "name": "Кабинет для электрогитары Revv Amplification 2x12 Slant Vertical Black",
+      "price": "255 990 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 561444",
+        "Тип: Кабинет для электрогитары",
+        "Производитель: Revv Amplification",
+        "Состояние: Новое",
+        "Страна производства: Канада",
+        "Конфигурация динамиков: 2x12",
+        "Выходная мощность, Ватт: 150",
+        "Сопротивление, Ом: 8",
+        "Цвет: черный",
+        "Артикул: 212SVC",
+        "Вес: 25 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/62/1a/600x600_1_normal_3b73947de2c8356566fa09fbb911.webp",
+        "https://skifmusic.ru/thumbs/62/e1/600x600_1_normal_98ab6e62ccff372c6aad51d73607.webp",
+        "https://skifmusic.ru/thumbs/67/77/600x600_1_normal_9cbe8c973c1d350039f941456296.webp"
+      ]
+    }
+  ]
+}
