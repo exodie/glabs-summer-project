@@ -26,7 +26,8 @@ public class JsonToMongo {
             System.out.println("Folder not found.");
             return;
         }
-        String connectionString = "mongodb+srv://niker299:vNwf6EgHKxvKzJh1@clusterhuyaster.6fdlk7o.mongodb.net/?retryWrites=true&w=majority&appName=clusterHuyaster";
+        String connectionString = "PASTE_PATH_TO_DIRECTORY_WITH_JSON";
+
         String databaseName = "glabs";
 
         try (MongoClient mongoClient = MongoClients.create(connectionString)) {
