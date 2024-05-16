@@ -1,6 +1,6 @@
 import { cookies } from 'next/headers'
 
-import { UsersProfile } from '@/views/users'
+import { UsersProfile } from '~/views/users'
 
 export default function Profile() {
   const username = cookies().get('username')?.value

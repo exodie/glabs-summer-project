@@ -1,8 +1,8 @@
-import { ProfileTabs } from "@/shared/types";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shared/ui";
+import { UserPurchases } from './purchases'
+import { UserSettings } from './settings/ui'
 
-import { UserPurchases } from "./purchases";
-import { UserSettings } from "./settings/ui";
+import { ProfileTabs } from '~/shared/types'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '~/shared/ui'
 
 export const UsersProfile = () => {
   return (
@@ -25,5 +25,5 @@ export const UsersProfile = () => {
         <TabsContent value={ProfileTabs.HISTORY}>history tabs</TabsContent>
       </Tabs>
     </>
-  );
-};
+  )
+}

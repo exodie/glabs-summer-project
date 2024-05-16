@@ -1,9 +1,9 @@
-import { ModeToggle } from "@/shared/ui/modeThemes"
+import { ModeToggle } from '~/shared/ui/modeThemes'
 
 export const UserSettings = () => {
-    return (
-        <div>
-            Тема: <ModeToggle />
-        </div>
-    )
+  return (
+    <div>
+      Тема: <ModeToggle />
+    </div>
+  )
 }

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import { type Products } from '../../model'
 
-import { Button, Carousel, CarouselContent, CarouselItem } from '@/shared/ui'
+import { Button, Carousel, CarouselContent, CarouselItem } from '~/shared/ui'
 
 interface Props {
   product: Products

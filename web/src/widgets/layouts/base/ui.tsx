@@ -1,8 +1,8 @@
 import { type ReactNode } from 'react'
 
-import { BreadCrumbWidget } from '@/widgets/breadcrumb'
-import { Footer } from '@/widgets/footer'
-import { Header } from '@/widgets/header'
+import { BreadCrumbWidget } from '~/widgets/breadcrumb'
+import { Footer } from '~/widgets/footer'
+import { Header } from '~/widgets/header'
 
 export const BaseLayouts = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
