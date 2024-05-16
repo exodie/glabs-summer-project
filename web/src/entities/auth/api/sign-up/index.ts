@@ -3,7 +3,7 @@
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation'
 
-import ky from 'ky'
+import { apiConfig } from '~/shared/configs'
 
 export const signUpAction = async (formData: FormData) => {
   const user = {
@@ -20,8 +20,8 @@ export const signUpAction = async (formData: FormData) => {
     redirect('/profile')
   }
 
-  const response = await ky
-    .post(`${process.env.GATEWAY_API_URI}/api/auth/signup`, { json: user })
+  const response = await apiConfig
+    .post(`auth/signup`, { json: user })
     .json<{ username: string; accessToken: string }>()
 
   cookies().set('session', JSON.stringify(response), {
