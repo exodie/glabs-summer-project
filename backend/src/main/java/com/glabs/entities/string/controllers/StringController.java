@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StringController {
     private final StringService stringService;
 
-    @GetMapping("/api/products/string")
+    @GetMapping("/api/products/strings")
     private StringResponse getAllString(){
         return stringService.getAllStrings();
     }
