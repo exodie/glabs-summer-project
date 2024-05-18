@@ -12,6 +12,8 @@ import java.util.Set;
 @Builder
 public class GuitarResponse {
     @Builder.Default
+    private final String title = "Гитары";
+    @Builder.Default
     private final String category = "guitars";
     private final Set<SubCategoriesResponse> subCategories;
     private final Set<String> brands;

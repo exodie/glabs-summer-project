@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="w-full my-4 mx-auto grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:grid-cols-auto-fill md:grid-cols-minmax-min-10rem-full-1fr">
       {CATALOG__MOCKS.map((items) => (
-        <Link href={`/products/${items.title.toLowerCase()}`} key={items.id}>
+        <Link href={`/products/${items.href}`} key={items.id}>
           <Card className="h-full flex flex-col items-center">
             <CardHeader>
               <CardTitle className="mx-auto mt-0">{items.title}</CardTitle>
