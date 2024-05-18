@@ -48,14 +48,16 @@ export const ProductsCatalog: FC<Props> = ({ name }) => {
             veritatis minima quo quaerat, itaque consectetur pariatur recusandae qui est
             harum officia aspernatur, odio consequatur voluptate, quae excepturi eius?
           </p>
-          <Button className="w-full">Search</Button>
+          <Button className="w-full font-medium text-xl" size={'lg'}>
+            Поиск
+          </Button>
         </div>
       )}
 
       {products.length >= 1 && (
         <div className="flex flex-col">
           <div className="py-4">
-            <h2>Length of products: {products.length}</h2>
+            <h2>Найдено: {products.length}</h2>
           </div>
 
           <section className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 md:grid-cols-auto-fill md:grid-cols-minmax-min-10rem-full-1fr transition">
@@ -86,7 +88,7 @@ export const ProductsCatalog: FC<Props> = ({ name }) => {
                     className="flex flex-col"
                     href={`/products/${items.category}/${items.subCategory}/${items.title}`}
                   >
-                    <Button>See product</Button>
+                    <Button>Просмотреть</Button>
                   </Link>
                 </div>
               </div>
