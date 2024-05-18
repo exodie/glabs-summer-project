@@ -10,6 +10,8 @@ import java.util.Set;
 @Builder
 public class StringResponse {
     @Builder.Default
+    private final String title = "Струны для гитары";
+    @Builder.Default
     private final String category = "strings";
     private final Set<SubCategoriesResponse> subCategories;
     private final Set<String> brands;

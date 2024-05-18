@@ -12,6 +12,8 @@ import java.util.Set;
 @Builder
 public class AmpResponse {
     @Builder.Default
+    private final String title = "Усилители для гитары";
+    @Builder.Default
     private final String category = "amp";
     private final Set<SubCategoriesResponse> subCategories;
     private final Set<String> brands;

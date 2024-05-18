@@ -43,7 +43,6 @@ public class UserService {
     private final AuthenticationManager authenticationManager;
     private final JwtUtils jwtUtils;
 
-
     public ResponseEntity<?> createUser(SignUpRequest signUpRequest,
                                         BindingResult bindingResult,
                                         UriComponentsBuilder uriComponentsBuilder) throws BindException {
@@ -199,5 +198,4 @@ public class UserService {
         String[] result = new String[emptyNames.size()];
         return emptyNames.toArray(result);
     }
-
 }
