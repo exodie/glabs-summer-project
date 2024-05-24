@@ -19,14 +19,14 @@ import java.util.Set;
 
 public class JsonToMongo {
     public static void main(String[] args) throws IOException {
-        String jsonFolderPath = "C:\\Users\\kaifarik\\IdeaProjects\\glabs-summer-project\\backend\\src\\main\\java\\com\\glabs\\scripts\\Jsons\\Amp";
+        String jsonFolderPath = "C:\\Users\\kaifarik\\IdeaProjects\\glabs-summer-project\\backend\\src\\main\\java\\com\\glabs\\scripts\\Jsons\\Case";
         File folder = new File(jsonFolderPath);
 
         if (!folder.exists() || !folder.isDirectory()) {
             System.out.println("Folder not found.");
             return;
         }
-        String connectionString = "PASTE_PATH_TO_DIRECTORY_WITH_JSON";
+        String connectionString = "mongodb+srv://niker299:vNwf6EgHKxvKzJh1@clusterhuyaster.6fdlk7o.mongodb.net/?retryWrites=true&w=majority&appName=clusterHuyaster";
 
         String databaseName = "glabs";
 

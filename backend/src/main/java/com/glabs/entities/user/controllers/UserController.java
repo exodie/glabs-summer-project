@@ -45,7 +45,7 @@ public class UserController {
     public ResponseEntity<?> deleteUser(@RequestParam String id) {
         return userService.deleteUser(id);
     }
-
+    
     @ExceptionHandler(NoSuchElementException.class)
     public ResponseEntity<?> handleNoSuchElementException(NoSuchElementException exception){
         return ResponseEntity.status(HttpStatus.NOT_FOUND)

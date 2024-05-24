@@ -1,8 +1,7 @@
-package com.glabs.entities.amplifier.controllers;
+package com.glabs.entities.amplifiers.controllers;
 
-import com.glabs.commonService.MongoService;
-import com.glabs.entities.amplifier.services.AmplifierService;
-import com.glabs.payload.response.AmpResponse;
+import com.glabs.entities.amplifiers.services.AmplifierService;
+import com.glabs.payload.response.ProductResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +14,7 @@ public class AmplifierController {
     private final AmplifierService amplifierService;
 
     @GetMapping("/api/products/amp")
-    private AmpResponse getAllAmplifier(){
+    private ProductResponse getAllAmplifier(){
         return amplifierService.getAllAmp();
     }
 

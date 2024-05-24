@@ -1,7 +1,7 @@
-package com.glabs.entities.string.controllers;
+package com.glabs.entities.strings.controllers;
 
-import com.glabs.entities.string.services.StringService;
-import com.glabs.payload.response.StringResponse;
+import com.glabs.entities.strings.services.StringService;
+import com.glabs.payload.response.ProductResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +12,7 @@ public class StringController {
     private final StringService stringService;
 
     @GetMapping("/api/products/string")
-    private StringResponse getAllString(){
+    private ProductResponse getAllString(){
         return stringService.getAllStrings();
     }
 
