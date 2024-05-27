@@ -13,7 +13,7 @@ public class AmplifierController {
 
     private final AmplifierService amplifierService;
 
-    @GetMapping("/api/products/amp")
+    @GetMapping("/api/products/amps")
     private ProductResponse getAllAmplifier(){
         return amplifierService.getAllAmp();
     }

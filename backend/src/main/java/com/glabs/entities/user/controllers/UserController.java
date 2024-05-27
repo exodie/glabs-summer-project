@@ -26,6 +26,7 @@ public class UserController {
         return userRepository.findById(id)
                 .orElseThrow(() -> new NoSuchElementException("No such user."));
     }
+
     @GetMapping()
     public ResponseEntity<List<User>> getAll() {
         return userService.getAll();
@@ -45,11 +46,10 @@ public class UserController {
     public ResponseEntity<?> deleteUser(@RequestParam String id) {
         return userService.deleteUser(id);
     }
-    
+
     @ExceptionHandler(NoSuchElementException.class)
-    public ResponseEntity<?> handleNoSuchElementException(NoSuchElementException exception){
+    public ResponseEntity<?> handleNoSuchElementException(NoSuchElementException exception) {
         return ResponseEntity.status(HttpStatus.NOT_FOUND)
                 .body(ProblemDetail.forStatusAndDetail(HttpStatus.NOT_FOUND, exception.getMessage()));
     }
-
 }

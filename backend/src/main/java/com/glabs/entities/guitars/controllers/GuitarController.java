@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GuitarController {
 
     private final GuitarService guitarService;
-    @GetMapping("/api/products/guitar")
+    @GetMapping("/api/products/guitars")
     private ProductResponse getAllGuitar(){
         return guitarService.getAllGuitar();
     }

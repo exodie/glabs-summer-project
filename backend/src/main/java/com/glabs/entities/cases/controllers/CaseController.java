@@ -12,7 +12,7 @@ public class CaseController {
 
     private final CaseService caseService;
 
-    @GetMapping("/api/products/case")
+    @GetMapping("/api/products/cases")
     private ProductResponse getAllCases(){
         return caseService.getAllCase();
     }

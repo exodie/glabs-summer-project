@@ -9,7 +9,6 @@ import com.mongodb.client.MongoDatabase;
 import org.apache.commons.io.FilenameUtils;
 import org.bson.Document;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.util.HashSet;
@@ -18,17 +17,20 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class JsonToMongo {
+
     public static void main(String[] args) throws IOException {
-        String jsonFolderPath = "C:\\Users\\kaifarik\\IdeaProjects\\glabs-summer-project\\backend\\src\\main\\java\\com\\glabs\\scripts\\Jsons\\Case";
+
+        String jsonFolderPath = "PASTE_YOUR_FOLDER_WITH_JSONS";
+
         File folder = new File(jsonFolderPath);
 
         if (!folder.exists() || !folder.isDirectory()) {
             System.out.println("Folder not found.");
             return;
         }
-        String connectionString = "mongodb+srv://niker299:vNwf6EgHKxvKzJh1@clusterhuyaster.6fdlk7o.mongodb.net/?retryWrites=true&w=majority&appName=clusterHuyaster";
+        String connectionString = "DB_URL";
 
-        String databaseName = "glabs";
+        String databaseName = "DB_NAME";
 
         try (MongoClient mongoClient = MongoClients.create(connectionString)) {
             MongoDatabase database = mongoClient.getDatabase(databaseName);
