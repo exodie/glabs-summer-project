@@ -1,7 +1,7 @@
-package com.glabs.entities.guitar.controllers;
+package com.glabs.entities.guitars.controllers;
 
-import com.glabs.entities.guitar.services.GuitarService;
-import com.glabs.payload.response.GuitarResponse;
+import com.glabs.entities.guitars.services.GuitarService;
+import com.glabs.payload.response.ProductResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class GuitarController {
 
     private final GuitarService guitarService;
-    @GetMapping("/api/products/guitar")
-    private GuitarResponse getAllGuitar(){
+    @GetMapping("/api/products/guitars")
+    private ProductResponse getAllGuitar(){
         return guitarService.getAllGuitar();
     }
 }

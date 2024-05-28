@@ -1,0 +1,102 @@
+{
+  "electroCase": [
+    {
+      "name": "Чехол для электрогитары Gator GBE-ELECT",
+      "price": "3 708 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 285589",
+        "Тип: Чехол для электрогитары",
+        "Производитель: Gator",
+        "Состояние: Новое",
+        "Подкладка, мм: 10",
+        "Материал: нейлон",
+        "Цвет: черный",
+        "Артикул: GBE-ELECT",
+        "Вес: 0.89 кг",
+        "Страна бренда: США"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/40/bd/600x600_1_normal_670918e0f54a1c2544322dff109d.webp",
+        "https://skifmusic.ru/thumbs/8f/c8/600x600_1_normal_6ed7637f61ee594ad47d35febc7d.webp",
+        "https://skifmusic.ru/thumbs/38/86/600x600_1_normal_2d97aa47709af0526a2891c1f33b.webp",
+        "https://skifmusic.ru/thumbs/bf/8c/600x600_1_normal_fc34f9b691b35764ba2d33e9289e.webp",
+        "https://skifmusic.ru/thumbs/49/50/600x600_1_normal_1cd34b2eb0aec2a030d26562340e.webp",
+        "https://skifmusic.ru/thumbs/48/6b/600x600_1_normal_4c9796ed2d403025dccb19fd668a.webp",
+        "https://skifmusic.ru/thumbs/51/99/600x600_1_normal_4fc07610bb6aa58bcef262bf127e.webp",
+        "https://skifmusic.ru/thumbs/b5/92/600x600_1_normal_d0a1f4786ce8900fc54abd2e9ec1.webp",
+        "https://skifmusic.ru/thumbs/df/d8/600x600_1_normal_6b797c0a0d531c542b925495c641.webp",
+        "https://skifmusic.ru/thumbs/ef/95/600x600_1_normal_f5649359c5416503a97077de51ee.webp",
+        "https://skifmusic.ru/thumbs/c7/cc/600x600_1_normal_3af46e85266b8094f6542e507376.webp",
+        "https://skifmusic.ru/thumbs/6c/c6/600x600_1_normal_8e6e8b83063a6f1694c292bfc11a.webp",
+        "https://skifmusic.ru/thumbs/2d/11/600x600_1_normal_e89c97eabf21eeecf0aed2fdacc7.webp",
+        "https://skifmusic.ru/thumbs/14/c3/600x600_1_normal_c7a00f33f1104aaee9e895ccb829.webp"
+      ]
+    },
+    {
+      "name": "Чехол для электрогитары Flight FBG3055",
+      "price": "1 700 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 389760",
+        "Тип: Чехол для электрогитары",
+        "Производитель: Flight",
+        "Состояние: Новое",
+        "Страна производства: Россия",
+        "Подкладка, мм: 5",
+        "Материал: нейлон",
+        "Цвет: черный",
+        "Артикул: FBG-3055",
+        "Вес: 1 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/fd/0d/600x600_1_normal_446782ab4f14e1c0dd29207db8c3.webp",
+        "https://skifmusic.ru/thumbs/d4/2b/600x600_1_normal_f3b856d666f5a92112a342b00b49.webp",
+        "https://skifmusic.ru/thumbs/1e/0e/600x600_1_normal_64bbbe99a35075a1906ec3a29dc5.webp"
+      ]
+    },
+    {
+      "name": "Чехол для электрогитары AMC ГЭ 1",
+      "price": "1 700 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 541050",
+        "Тип: Чехол для электрогитары",
+        "Производитель: AMC",
+        "Состояние: Новое",
+        "Страна производства: Россия",
+        "Форма корпуса: Stratocaster, Telecaster",
+        "Подкладка, мм: 5",
+        "Материал: полиэстер",
+        "Цвет: черный",
+        "Артикул: ГЭ1",
+        "Вес: 0.6 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/ff/a0/600x600_1_normal_bab57f6ed9c289dfd18464c2baff.webp"
+      ]
+    },
+    {
+      "name": "Чехол для электрогитары SOLO ЧГЭ-1",
+      "price": "1 040 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 541102",
+        "Тип: Чехол для электрогитары",
+        "Производитель: SOLO",
+        "Состояние: Новое",
+        "Страна производства: Россия",
+        "Форма корпуса: Stratocaster, Telecaster",
+        "Подкладка, мм: 3",
+        "Материал: нейлон",
+        "Цвет: черный",
+        "Артикул: ЧГЭ1",
+        "Вес: 0.42 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/ed/cc/600x600_1_normal_8c286258321ea9c07902e8fff010.webp",
+        "https://skifmusic.ru/thumbs/a3/79/600x600_1_normal_8530a0a2eefdc7afe9db059d15e1.webp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "bassCase": [
+    {
+      "name": "Чехол для бас-гитары Gator GBE-BASS",
+      "price": "4 068 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 285586",
+        "Тип: Чехол для бас-гитары",
+        "Производитель: Gator",
+        "Состояние: Новое",
+        "Страна производства: США",
+        "Подкладка, мм: 10",
+        "Материал: нейлон",
+        "Цвет: черный",
+        "Артикул: GBE-BASS",
+        "Вес: 0.98 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/32/f5/600x600_1_normal_ff41cc36fa5cb1823ef21fd865d1.webp",
+        "https://skifmusic.ru/thumbs/83/1b/600x600_1_normal_78b9550b95a19c7d7ed53d5fca17.webp",
+        "https://skifmusic.ru/thumbs/2a/c6/600x600_1_normal_b3e3624dbf248d9307926c2d855f.webp",
+        "https://skifmusic.ru/thumbs/cb/fd/600x600_1_normal_7300c5dd59ac2341dded828f4ba4.webp",
+        "https://skifmusic.ru/thumbs/fb/2d/600x600_1_normal_8b2c8dc258a620c05c65951e163d.webp",
+        "https://skifmusic.ru/thumbs/28/46/600x600_1_normal_2d04c6c7c5f7ea8c31f77930c0c6.webp",
+        "https://skifmusic.ru/thumbs/e2/d1/600x600_1_normal_42e2090c728cd72fe9d9e514cd46.webp"
+      ]
+    },
+    {
+      "name": "Чехол для бас-гитары  SQOE Qb-bb-20mm bass white с утеплителем 20мм",
+      "price": "3 180 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 546035",
+        "Тип: Чехол для бас-гитары",
+        "Производитель: Sqoe",
+        "Состояние: Новое",
+        "Страна производства: Китай",
+        "Подкладка, мм: 20",
+        "Материал: текстиль",
+        "Цвет: белый",
+        "Артикул: Qb-bb-20mm white",
+        "Вес: 1 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/a2/cc/600x600_1_normal_14c8a4dd52cc93a38f9efde95df3.webp"
+      ]
+    },
+    {
+      "name": "Чехол для бас-гитары  Lutner ЛЧГБ2",
+      "price": "2 690 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 448225",
+        "Тип: Чехол для бас-гитары",
+        "Производитель: Lutner",
+        "Состояние: Новое",
+        "Страна производства: Россия",
+        "Материал: полиэстер",
+        "Цвет: черный, синий",
+        "Артикул: ЛЧГБ2",
+        "Вес: 1 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/df/c0/600x600_1_normal_2787d9010061df9f33f250ec2469.webp"
+      ]
+    },
+    {
+      "name": "Чехол для бас-гитары STAX ЧБС",
+      "price": "1 990 ₽",
+      "type": "new",
+      "characteristics": [
+        "Код товара: 540974",
+        "Тип: Чехол для бас-гитары",
+        "Производитель: STAX",
+        "Состояние: Новое",
+        "Страна производства: Россия",
+        "Подкладка, мм: 5",
+        "Материал: полиэстер",
+        "Цвет: черный",
+        "Артикул: ЧБС",
+        "Вес: 1 кг"
+      ],
+      "images": [
+        "https://skifmusic.ru/thumbs/26/8c/600x600_1_normal_fe5706fa44aab45f25ff836d27fa.webp",
+        "https://skifmusic.ru/thumbs/1f/e5/600x600_1_normal_fde1abe0abc6450635a6e6824d24.webp"
+      ]
+    }
+  ]
+}
