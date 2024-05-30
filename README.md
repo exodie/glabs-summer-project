@@ -1,5 +1,9 @@
 # GLabs - проект по продаже и изготовке гитар
 
-### "Все будет, но не сразу"
+Репозитории переехали на свои новые места:
 
-Current version: 0.1.1
+- app: https://github.com/glabs-project/app
+- backend: https://github.com/glabs-project/backend
+- admin: https://github.com/glabs-project/admin
+- admin-backend: https://github.com/glabs-project/admin-backend
+- analytics-server: https://github.com/glabs-project/analytics-server (временно пустует 😩)
