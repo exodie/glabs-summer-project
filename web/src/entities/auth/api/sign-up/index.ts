@@ -14,21 +14,22 @@ export const signUpAction = async (formData: FormData) => {
     roles: ['user']
   }
 
-  const expires = new Date(new Date().getTime() + 30 * 24 * 60 * 60 * 1000)
+  const expires = new Date(new Date().getTime() + 2 * 60 * 1000)
 
   if (cookies().get('session')) {
     redirect('/profile')
   }
 
-  const response = await apiConfig
-    .post(`auth/signup`, { json: user })
-    .json<{ username: string; accessToken: string }>()
+  const response = await apiConfig.post(`auth/signup`, { json: user })
 
-  cookies().set('session', JSON.stringify(response), {
-    expires,
-    httpOnly: true
-  })
-  cookies().set('username', response.username)
+  if (response.ok) {
+    console.log('response is ok')
 
-  redirect('/')
+    cookies().set('expires-email', user.email as string, {
+      expires,
+      httpOnly: true
+    })
+
+    redirect('/signup/confirm')
+  }
 }
